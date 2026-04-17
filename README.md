@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="public/blanc.png" alt="Blanc Logo" width="100" />
+  <img src="./Blanc.png" alt="Blanc Logo" width="100" />
   <h1>Blanc Command Center</h1>
   <p><strong>A Minimalist, Local-First Personal Dashboard & Task Manager</strong></p>
 </div>
