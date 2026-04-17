@@ -12,13 +12,7 @@ function App() {
   const addSmartTask = useStore(state => state.addSmartTask);
   const tasks = useStore(state => state.tasks);
 
-  useEffect(() => {
-    if (tasks.length === 0) {
-      addSmartTask("Review laporan keuangan Q1 minggu depan");
-      addSmartTask("Beli biji kopi besok jam 10 pagi");
-      addSmartTask("Meeting sinkronisasi otomatis");
-    }
-  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+
 
   return (
     <div className="flex h-screen bg-zen-bg overflow-hidden font-sans text-zen-text antialiased selection:bg-zen-accent/20">
